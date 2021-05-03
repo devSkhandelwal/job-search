@@ -1,11 +1,10 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import LoginContainer from './containers/LoginContainer';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/login" component = {LoginContainer}/> 
+        <Route path="/login" component = {}/> 
       </Switch>
     </Router>
   );
