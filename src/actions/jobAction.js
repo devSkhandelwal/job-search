@@ -8,7 +8,7 @@ export const jobListAction = (description) => async(dispatch) => {
         });
 
         console.log(`/positions.json?description=${description}`)
-        const {data} = await axios.get(`/positions.json?description=${description}`);
+        const {data} = await axios.get(`https://vigorous-stonebraker-c4da2e.netlify.app/jobs.github.com//positions.json?description=${description}`);
 
         dispatch({
             type:JOB_LIST_SUCCESS,
@@ -32,7 +32,7 @@ export const jobDetailsAction = (id) => async(dispatch) => {
 
         console.log(`positions/${id}.json`)
 
-        const {data} = await axios.get(`/positions/${id}.json`);
+        const {data} = await axios.get(`https://vigorous-stonebraker-c4da2e.netlify.app/jobs.github.com/positions/${id}.json`);
 
         console.log(data)
 
