@@ -1,0 +1,11 @@
+.form-group{
+    width: 100%;
+}
+
+.form-group input{
+    border: none;
+    outline: none;
+    border-bottom:1px black solid ;
+    padding:5px 30px;
+    font-size: 16px;
+}

@@ -1,0 +1,18 @@
+.preview{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.file{
+    height:60%;
+}
+
+.info{
+    margin: 0 30px;
+    width: 30%;
+}
+

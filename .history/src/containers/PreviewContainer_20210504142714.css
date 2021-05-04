@@ -1,0 +1,9 @@
+.preview{
+    height: 100vh;
+    display: flex;
+}
+
+.file{
+    width: 50%;
+    height: 100%;
+}

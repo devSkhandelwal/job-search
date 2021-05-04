@@ -1,0 +1,7 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.intro img{
+    height: 50px;
+}

@@ -1,0 +1,16 @@
+.danger{
+    background-color: #d9534f;
+    opacity: 0.8;
+}
+
+.success{
+    background-color:#0093E9;
+    opacity: 0.8;
+}
+
+.message{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.intro img{
+    height: 50px;
+}
+
+.locate p{}
+
+.locate{
+    display: flex;
+    justify-content: left;
+}

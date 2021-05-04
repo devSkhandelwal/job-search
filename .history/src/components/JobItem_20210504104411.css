@@ -1,0 +1,14 @@
+.job-item div a{
+    color: black;
+    margin: 0;
+}
+
+.job-item div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.job-item img {
+    height: 40px;
+}

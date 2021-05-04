@@ -1,0 +1,21 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.intro img{
+    height: 50px;
+}
+
+.locate p{
+    margin: 5px 10px;
+}
+
+.locate{
+    display: flex;
+    justify-content: left;
+    margin-bottom:30px ;
+}
+
+.details button{
+    margin-top: 30px;
+}

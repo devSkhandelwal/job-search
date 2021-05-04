@@ -1,0 +1,32 @@
+.list{
+    width: 100%;
+}
+
+.job-item .data a{
+    color: black;
+    margin: 0;
+}
+
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.data img {
+    height: 40px;
+    margin-left:30px;
+}
+
+.job-item a{
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0 5px 0;
+}

@@ -1,0 +1,9 @@
+.card{
+    width: 80%;
+    box-shadow: 3px 3px 1px 1px whitesmoke;
+    padding: 30px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 2px 2px whitesmoke;
+}

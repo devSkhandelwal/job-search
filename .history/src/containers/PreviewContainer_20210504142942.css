@@ -1,0 +1,10 @@
+.preview{
+    height: 100vh;
+    display: flex;
+}
+
+.file{
+    
+    height: 100%;
+}
+

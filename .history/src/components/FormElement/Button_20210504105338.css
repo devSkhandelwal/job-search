@@ -1,0 +1,29 @@
+.button{
+
+    padding: 10px;
+    
+    border: none;
+  
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    box-shadow: 0 0 5px #0093E9;
+}
+
+.full{
+    margin: 30px;   
+    width: 100%;
+    color: white;
+    background-color: #0093E9;
+}
+
+.outlined{
+    background-color: transparent;
+    color: #0093E9;
+    border: 1px solid  #0093E9;
+    width:40%
+}

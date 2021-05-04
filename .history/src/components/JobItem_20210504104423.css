@@ -1,0 +1,15 @@
+.job-item div a{
+    color: black;
+    margin: 0;
+}
+
+.job-item div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    
+}
+
+.job-item img {
+    height: 40px;
+}

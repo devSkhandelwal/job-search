@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    background-color: #0093E9;
+    width: 100%;
+    padding: 20px 0;
+    opacity: .9;
+    margin-bottom:30px ;
+    top:0
+}
+
+.header-container{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header-container a{
+    color: white;
+    text-decoration: none;
+}

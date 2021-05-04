@@ -1,0 +1,8 @@
+.form-group{
+    width: 100%;
+}
+
+.form-group input{
+    border: none;
+    border-bottom:1px black solid ;
+}

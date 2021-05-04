@@ -1,0 +1,10 @@
+
+
+.nav-logo{
+    display: inline-block;
+}
+
+.navlist{
+    list-style: none;
+    display: flex;
+}

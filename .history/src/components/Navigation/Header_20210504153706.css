@@ -1,0 +1,20 @@
+.header{
+  
+    background-color: #515151;
+    width: 100%;
+    padding: 20px 0;
+    opacity: .9;
+
+}
+
+.header-container{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header-container a{
+    color: white;
+    text-decoration: none;
+}

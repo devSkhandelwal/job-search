@@ -1,0 +1,12 @@
+.button{
+
+    padding: 10px;
+    margin: 30px;
+    border: none;
+    color: white
+}
+
+.full{
+    width: 80%;
+    background-color: #0093E9;
+}

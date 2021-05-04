@@ -1,0 +1,8 @@
+.job-item div{
+    display: flex;
+    margin: 10px 0;
+}
+
+.job-item img {
+    height: 40px;
+}

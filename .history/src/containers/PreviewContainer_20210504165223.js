@@ -1,0 +1,42 @@
+import React, { useEffect, useState } from 'react'
+import { useSelector } from 'react-redux';
+import Message from '../components/Message';
+
+import './PreviewContainer.css'
+
+
+const PreviewContainer = () => {
+
+    const {userData} = useSelector(state=>state.data)
+    
+    const {name,email,file} = userData
+
+    console.log(userData)
+
+    console.log(file)
+
+    return (
+        <div className="preview">
+            {
+                userData ?(
+                    <>
+                    <object data={file} type="application/pdf" className="file">
+                        <p>Alternative text - include a link <a href={file}>to the PDF!</a></p>
+                    </object>
+                    <div className="info">
+                        <p><strong>Name :</strong>{name}</p>
+                        <p><strong>Email :</strong>{email}</p>
+                    </div>
+                    </>
+                ):(
+                    <Message varient="success">Fill Job form First</Message>
+                )
+            }
+            
+          
+        </div>
+    
+    )
+}
+
+export default PreviewContainer
